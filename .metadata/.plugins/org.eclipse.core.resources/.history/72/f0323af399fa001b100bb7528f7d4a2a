@@ -1,0 +1,11 @@
+package tree;
+
+public class node {
+node elm;
+node left=null;
+node right=null;
+node(char elm){
+this.elm=elm;
+}
+
+}

@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+     double a=(float)0.1;
+     double b=(float)0.3;
+     System.out.printf("%.17f",a+b);
+	}
+
+}

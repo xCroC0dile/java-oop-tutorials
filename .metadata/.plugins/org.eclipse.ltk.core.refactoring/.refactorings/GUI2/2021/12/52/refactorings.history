@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;2048px-User_icon_2.svg.png&apos; to &apos;Main.java&apos;&#x0D;&#x0A;- Original project: &apos;GUI2&apos;&#x0D;&#x0A;- Destination element: &apos;Main.java&apos;&#x0D;&#x0A;- Original element: &apos;2048px-User_icon_2.svg.png&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=GUI3/src&lt;{Main.java" element1="2048px-User_icon_2.svg.png" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1640097942924" units="0" version="1.0"/>
+</session>

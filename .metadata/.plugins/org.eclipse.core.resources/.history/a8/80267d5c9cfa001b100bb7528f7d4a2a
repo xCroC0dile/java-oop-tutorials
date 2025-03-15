@@ -1,0 +1,29 @@
+package tree;
+
+
+public class Main {
+static int length(node n) {
+if(n==null) {
+return 0;
+}
+else {
+return 1+length(n.left)+length(n.right);
+}
+}
+	public static void main(String[] args) {
+	node A=new node('A');
+	node B=new node('B');
+	node C=new node('C');
+	node D=new node('D');
+	node E=new node('E');
+	A.left=B;
+	A.right=E;
+	B.left=C;
+	B.right=D;
+	
+	System.out.println("the legth of tree is "+length(A));
+	System.out.println(A);
+
+	}
+
+}

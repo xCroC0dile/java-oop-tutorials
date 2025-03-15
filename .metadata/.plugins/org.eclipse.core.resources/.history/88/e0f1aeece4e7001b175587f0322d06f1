@@ -1,0 +1,9 @@
+
+public class vac5 {
+
+	public static void main(String[] args) {
+ System.out.println("type a number");
+		
+	}
+
+}

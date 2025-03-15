@@ -1,0 +1,30 @@
+package vac3;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("How far do you want to walk (meters)?: ");
+		int distance = scan.nextInt();
+		
+		takeAStep(distance);
+		scan.close();
+		
+	}
+	
+	static void takeAStep(int distance) {
+		int i=0;
+		if(i<distance) {
+			i++;
+			System.out.println("*you take a step* : "+i+" meter/s");
+			takeAStep(i,distance);
+		}
+		else {
+			System.out.println("You are done walking!");
+		}
+
+	}
+	
+
+	}
+
